@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid black;
+            
+        }
+        .h1{
+            text-align: center;
+            color: blue;
+            
+        }
+        .block{
+          width: 45%;
+          height: 200px;
+          border: 1px solid green;
+          margin-bottom: 30px;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .btn{
+            display: block;
+            margin: 0 auto;
+            padding: 5px 20px;
+            background-color: antiquewhite;
+            margin-bottom: 10px;
+        }
+        .block-img{
+            background-image: url(./html.png);
+            height: 40%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <script src="/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">Модули курса Веб-верстка</h1>
+        <div class="flex">
+        <div class="block">
+            <div class="block-img"></div>
+            <div class="block-text"></div>
+        </div>
+        <div class="block">
+            <div class="block-img"></div>
+            <div class="block-text"></div>
+        </div>
+        <div class="block">
+            <div class="block-img"></div>
+            <div class="block-text"></div>
+        </div>
+        <div class="block">
+            <div class="block-img"></div>
+            <div class="block-text"></div>
+        </div>
+    </div>
+    <button class="btn">Показать еще</button>
+    </div>
+</body>
+</html>
